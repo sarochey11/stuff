@@ -1,0 +1,1 @@
+I didn't create the qb-policebadge script reworked it and intergrated it into NRP's Framework. Its a little shoddy and If i did this again I would intergrate it to the MDT from DRX

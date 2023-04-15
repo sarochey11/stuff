@@ -1,0 +1,83 @@
+@font-face {
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body, html {
+  width: 70%;
+  height: 70%;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#id-card {
+  position: relative;
+  display: none;
+  margin: 280px 1400px 0 0;
+  left: 10vh;
+  width: 485px;
+  height: 383px;
+  padding: 54px 17px 10px 144px;
+}
+
+img {
+  position: absolute;
+  left:2px;
+  top:5px;
+}
+
+#rankName, #name, #callsign {
+  font-weight: bolder;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none; 
+  color: #000000;
+}
+
+#rankName {
+  font-size: 18px;
+}
+
+#callsign {
+  margin-top: 30px;
+}
+
+#inline {
+  position: absolute;
+  top: 240px;
+  left: 35px;
+  max-width: 183.34px;
+}
+
+#name {
+  position: absolute;
+  /* left: 20%; */
+  width: 100px;
+  justify-self: center;
+}
+
+#sex {
+  position: absolute;
+  left: 90px;
+}
+
+/* #callsign {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  color: #00000000;
+  font-size: 19px;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: none;
+  font-family: "Courier New", Courier, monospace;
+} */
